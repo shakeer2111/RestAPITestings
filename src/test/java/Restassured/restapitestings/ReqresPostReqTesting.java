@@ -1,6 +1,7 @@
 package Restassured.restapitestings;
 
 import static io.restassured.RestAssured.baseURI;
+
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
@@ -31,7 +32,7 @@ public class ReqresPostReqTesting {
                 .accept(ContentType.JSON)                              // Expect JSON response from server
                 .body(obj1.toJSONString())                             // Set the JSON body as request payload
             .when()
-                .post("api/users")                                     // Send POST request to /api/users endpoint
+                .post("api/users/2")                                     // Send POST request to /api/users endpoint
             .then()
                 .assertThat()
                 .body("name", equalTo("shakeer"))                      // Validate 'name' field in response

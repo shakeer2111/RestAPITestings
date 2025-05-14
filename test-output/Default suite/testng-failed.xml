@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Restassured.restapitestings.ReqresDeleteReqTesting">
+      <class name="Restassured.restapitestings.ReqresPutReqTesting">
         <methods>
-          <include name="reqres_Delete_Request_Validation"/>
+          <include name="reqres_PUT_Request_validations"/>
         </methods>
-      </class> <!-- Restassured.restapitestings.ReqresDeleteReqTesting -->
+      </class> <!-- Restassured.restapitestings.ReqresPutReqTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

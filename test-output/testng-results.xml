@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-13T16:27:30 IST" name="Default suite" finished-at="2025-05-13T16:27:31 IST" duration-ms="1749">
+  <suite started-at="2025-05-14T16:59:46 IST" name="Default suite" finished-at="2025-05-14T16:59:48 IST" duration-ms="2404">
     <groups>
     </groups>
-    <test started-at="2025-05-13T16:27:30 IST" name="Default test" finished-at="2025-05-13T16:27:31 IST" duration-ms="1749">
-      <class name="Restassured.restapitestings.ReqresDeleteReqTesting">
-        <test-method signature="reqres_Delete_Request_Validation()[pri:0, instance:Restassured.restapitestings.ReqresDeleteReqTesting@4686afc2]" started-at="2025-05-13T16:27:30 IST" name="reqres_Delete_Request_Validation" finished-at="2025-05-13T16:27:31 IST" duration-ms="1711" status="PASS">
+    <test started-at="2025-05-14T16:59:46 IST" name="Default test" finished-at="2025-05-14T16:59:48 IST" duration-ms="2404">
+      <class name="Restassured.restapitestings.ReqresPatchReqTesting">
+        <test-method signature="reqres_PATCH_Request_validations()[pri:0, instance:Restassured.restapitestings.ReqresPatchReqTesting@4686afc2]" started-at="2025-05-14T16:59:46 IST" name="reqres_PATCH_Request_validations" finished-at="2025-05-14T16:59:48 IST" duration-ms="2366" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reqres_Delete_Request_Validation -->
-      </class> <!-- Restassured.restapitestings.ReqresDeleteReqTesting -->
+        </test-method> <!-- reqres_PATCH_Request_validations -->
+      </class> <!-- Restassured.restapitestings.ReqresPatchReqTesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
